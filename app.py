@@ -350,7 +350,7 @@ def get_theme_css():
     .contact-grid {{ display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; }}
     
     .card {{ background: var(--card); border-radius: var(--radius); border: 1px solid rgba(100,100,100,0.1); transition: 0.3s; display: flex; flex-direction: column; overflow: hidden; }}
-    .card:hover {{ transform: translateY(-5px); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1); border-color: var(--s); }}
+    .card:hover {{ transform: translateY(-5px); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1); border-color: #cbd5e1; }}
     .card h3, .card h4, .card a {{ color: var(--txt) !important; text-decoration: none; }}
     .card-body {{ padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1; }}
     .card-desc {{ font-size: 0.9rem; opacity: 0.8; margin-bottom: 1.5rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
